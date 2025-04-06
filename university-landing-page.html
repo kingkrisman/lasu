@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lasu</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/duycrcary/image/upload/v1743956829/lasu_bijgpy.png" type="image/x-icon">
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <div class="nav-container">
+          <div class="logo-column">
+           
+            <h1 class="university-name">    <img src="https://res.cloudinary.com/duycrcary/image/upload/v1743956829/lasu_bijgpy.png" style="width: 80px;"> </h1>
+          </div>
+          <div class="menu-column">
+            <button class="hamburger" aria-label="Toggle navigation menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="nav-links">
+              <a href="#programs" class="nav-link">Programs</a>
+              <a href="#how-it-works" class="nav-link">How It Works</a>
+              <a href="#about" class="nav-link">About Us</a>
+              <a href="#campus" class="nav-link">Campus Life</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <img
+        src="https://res.cloudinary.com/duycrcary/image/upload/v1743956157/aaron_martinez_1_amu8fj.png"
+        alt="University campus"
+        class="hero-image"
+      />
+      <div class="hero-content">
+        <h2 class="hero-title">Shape Your Future</h2>
+        <p class="hero-description">
+          Discover world-class education and research opportunities
+        </p>
+        <button class="apply-button" id="applyBtn">Apply Now</button>
+      </div>
+    </section>
+
+    <section id="programs" class="programs-section hidden">
+      <h2 class="programs-title">Featured Programs</h2>
+      <div class="programs-container">
+        <div class="program-column">
+          <article class="program-card">
+            <h3 class="program-heading">Undergraduate</h3>
+            <p class="program-description">
+              Explore our diverse range of undergraduate programs
+            </p>
+            <button class="learn-more-button">Learn More</button>
+          </article>
+        </div>
+        <div class="program-column">
+          <article class="program-card">
+            <h3 class="program-heading">Graduate</h3>
+            <p class="program-description">
+              Advanced degrees and research opportunities
+            </p>
+            <button class="learn-more-button">Learn More</button>
+          </article>
+        </div>
+        <div class="program-column">
+          <article class="program-card">
+            <h3 class="program-heading">Online Learning</h3>
+            <p class="program-description">
+              Flexible education from anywhere in the world
+            </p>
+            <button class="learn-more-button">Learn More</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="campus" class="campus-section hidden">
+      <h2 class="campus-title">Campus Life</h2>
+      <div class="campus-container">
+        <div class="campus-column">
+          <article>
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1743956157/aaron_martinez_2_ooke4l.png"
+              alt="University facilities"
+              class="campus-image"
+              data-gallery="campus"
+            />
+            <h3>State-of-the-art Facilities</h3>
+            <p>Access to modern libraries, labs, and research centers</p>
+          </article>
+        </div>
+        <div class="campus-column">
+          <article>
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1743956157/aaron_martinez_ewlars.png"
+              alt="Student activities"
+              class="campus-image"
+              data-gallery="campus"
+            />
+            <h3>Student Activities</h3>
+            <p>Join clubs, sports teams, and cultural events</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works-section hidden">
+      <div class="glow-background"></div>
+      <h2 class="how-it-works-title">How It Works</h2>
+      <div class="steps-container">
+        <div class="step-column">
+          <article class="step-card">
+            <h3>1. Choose Your Path</h3>
+            <p>
+              Select from our diverse range of programs tailored to your goals
+            </p>
+          </article>
+        </div>
+        <div class="step-column">
+          <article class="step-card">
+            <h3>2. Apply Online</h3>
+            <p>
+              Complete our streamlined application process with guided support
+            </p>
+          </article>
+        </div>
+        <div class="step-column">
+          <article class="step-card">
+            <h3>3. Begin Your Journey</h3>
+            <p>Start your educational adventure with our world-class faculty</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section hidden">
+      <h2 class="about-title">About Us</h2>
+      <div class="about-container">
+        <div class="about-image-column">
+          <img
+            src="https://res.cloudinary.com/duycrcary/image/upload/v1743956157/aaron_martinez_3_zcozcv.png"
+            alt="University campus"
+            class="about-image"
+            data-gallery="about"
+          />
+        </div>
+        <div class="about-content-column">
+          <div class="about-content">
+            <h3 class="about-heading">Our Vision</h3>
+            <p class="about-description">
+              We are dedicated to pushing the boundaries of education through
+              innovation and technology. Our mission is to prepare students for
+              the challenges of tomorrow with cutting-edge programs and
+              world-class facilities.
+            </p>
+            <ul class="stats-list">
+              <li class="stat-item">
+                ✦ Founded in <span class="counter" data-target="1950">0</span>
+              </li>
+              <li class="stat-item">
+                ✦ <span class="counter" data-target="50000">0</span>+ Alumni
+                Worldwide
+              </li>
+              <li class="stat-item">
+                ✦ Top <span class="counter" data-target="1">0</span>% Global
+                Rankings
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="loans-section hidden">
+      <h2 class="loans-title">Student Loan Options</h2>
+      <div class="loans-container">
+        <div class="loan-column">
+          <article class="loan-card">
+            <h3>Federal Loans</h3>
+            <p>Low-interest government-backed student loans</p>
+            <ul class="loan-list">
+              <li>Interest Rate: 3.73% - 6.28%</li>
+              <li>No credit check required</li>
+              <li>Flexible repayment options</li>
+            </ul>
+            <button class="loan-button">Apply Now</button>
+          </article>
+        </div>
+        <div class="loan-column">
+          <article class="loan-card">
+            <h3>Private Loans</h3>
+            <p>Competitive rates from partner lenders</p>
+            <ul class="loan-list">
+              <li>Interest Rate: 4.99% - 11.99%</li>
+              <li>Quick approval process</li>
+              <li>Multiple lender options</li>
+            </ul>
+            <button class="loan-button">Compare Lenders</button>
+          </article>
+        </div>
+        <div class="loan-column">
+          <article class="loan-card">
+            <h3>Scholarships</h3>
+            <p>Merit-based funding opportunities</p>
+            <ul class="loan-list">
+              <li>Full and partial scholarships</li>
+              <li>Need-based grants</li>
+              <li>Academic excellence awards</li>
+            </ul>
+            <button class="loan-button">Search Scholarships</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer hidden">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p>123 University Ave</p>
+          <p>City, State 12345</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="stats-list">
+            <li><a href="#" class="footer-link">Academic Calendar</a></li>
+            <li><a href="#" class="footer-link">Library</a></li>
+            <li><a href="#" class="footer-link">Campus Map</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Resources</h3>
+          <ul class="stats-list">
+            <li><a href="#" class="footer-link">Student Portal</a></li>
+            <li><a href="#" class="footer-link">Career Services</a></li>
+            <li><a href="#" class="footer-link">Alumni</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Connect</h3>
+          <div class="social-links">
+            <a href="#" class="footer-link">Facebook</a>
+            <a href="#" class="footer-link">Twitter</a>
+            <a href="#" class="footer-link">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- Theme Switcher -->
+    <button class="theme-switcher" aria-label="Toggle dark/light theme">
+      🌓
+    </button>
+
+    <!-- Application Modal -->
+    <div class="modal-overlay" id="applicationModal">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <h2 class="modal-title">Apply to University</h2>
+        <form id="applicationForm">
+          <div class="form-group">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" id="fullName" class="form-input" required />
+            <div class="form-error" id="fullNameError">
+              Please enter your full name
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-input" required />
+            <div class="form-error" id="emailError">
+              Please enter a valid email address
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" id="phone" class="form-input" required />
+            <div class="form-error" id="phoneError">
+              Please enter a valid phone number
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="program" class="form-label">Program of Interest</label>
+            <select id="program" class="form-select" required>
+              <option value="">Select a program</option>
+              <option value="undergraduate">Undergraduate</option>
+              <option value="graduate">Graduate</option>
+              <option value="online">Online Learning</option>
+            </select>
+            <div class="form-error" id="programError">
+              Please select a program
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label"
+              >Additional Information</label
+            >
+            <textarea id="message" class="form-input" rows="4"></textarea>
+          </div>
+          <button type="submit" class="form-submit">Submit Application</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Image Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+      <button class="gallery-close" aria-label="Close gallery">&times;</button>
+      <img src="" alt="Gallery image" class="gallery-image" id="galleryImage" />
+    </div>
+
+   <script src="script.js"></script>
+  </body>
+</html>
